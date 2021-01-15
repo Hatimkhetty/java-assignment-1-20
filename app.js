@@ -431,6 +431,129 @@
 // var final = check - 12;
 // alert("The time is: " + final);
 
+// * -------------Chapter no 14-16--------------- */
+
+// //Q # 1
+// var stdNames = [];
+
+// //Q # 2
+// var studNames = new Array();
+
+// //Q # 3
+// var food = ["Biryani", "Tikka", "Pulao", "Kunna"];
+
+// //Q # 4
+// var nums = [1, 2, 3, 4, 5];
+
+// //Q # 5
+// var boolArray = [true, false];
+
+// //Q # 6
+// var mixedArray = ["Imran Khan", 18, true];
+
+// //Q # 7
+// document.write("<br/><br/>")
+// var qualificationInPak = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"];
+// document.write("Qualifications:<br />");
+// for (var i = 0; i < qualificationInPak.length; i++) {
+//     document.write((i + 1) + ") " + qualificationInPak[i] + "<br/>");
+// }
+
+// //Q # 8
+// var studentsName = ["Imran", "Nawaz", "Hassan"];
+// var studentsScore = [480, 230, 320];
+// var totalsMarks = 500;
+// document.write("<br /><br />");
+// for (var i = 0; i < studentsName.length; i++) {
+//     document.write("Score of ".concat(studentsName[i], " is ", studentsScore[i], ". Percentage: ", (studentsScore[i] / 500) * 100, "%<br/>"));
+// }
+
+// //Q # 9
+// document.write("<br/><br/>");
+// var color = ["Red", "Yellow", "Blue", "Green", "White", "Black"];
+// document.write(color + "<br/>");
+// var beginning = prompt("Enter which color you want to add at the beginning of array")
+// color.unshift(beginning)
+// document.write(color + "<br/>");
+// var ending = prompt("Enter which color you want to add at the ending of array")
+// color.push(ending)
+// document.write(color + "<br/>");
+// color.shift()
+// document.write(color + "<br/>");
+// color.pop()
+// document.write(color + "<br/>");
+// var update = +prompt("At which index do you want to add color?")
+// var newColor = +prompt(" which color do you want to add on that index?")
+// color.splice(update, 0, newColor)
+// document.write(color + "<br/>");
+// var dlete = +prompt("At which index do you want to delete color?")
+// var colorDelete = +prompt(" which color do you want to delete on that index?")
+// color.splice(dlete, colorDelete);
+// document.write(color + "<br/>");
+
+// //Q # 10
+// document.write("<br/><br/>");
+// var stdScore = [320, 230, 480, 120];
+// stdScore.sort();
+// for (i = 0; i < stdScore.length; i++) {
+//     document.write(stdScore[i] + "<br/>");
+// }
+
+// //Q # 11
+// document.write("<br/><br/>");
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// document.write("Cities List: <br/>" + cities + "<br/>")
+// var selectedCities = cities.slice(2, 4)
+// document.write("Selected Cities List: <br/>" + selectedCities);
+
+// //Q # 12
+// document.write("<br/><br/>");
+// var arr = ["This", "is", "my", "cat"];
+// document.write("Array: <br/>" + arr + "<br/>")
+// document.write("<br/>");
+// var join = arr.join(" ")
+// document.write("String: <br/>" + join)
+
+// //Q # 13
+// document.write("<br/><br/>");
+// var animals = ["Elephant", "Lion", "Tiger", "Girrafe"];
+// document.write("Animals : <br/>" + animals + "<br/>");
+// var firstAnimal = animals.shift();
+// document.write("out : <br/>" + firstAnimal + "<br/>");
+// var secondAnimal = animals.shift();
+// document.write("Out : <br/>" + secondAnimal + "<br/>");
+// var thirdAnimal = animals.shift();
+// document.write("Out : <br/>" + thirdAnimal + "<br/>");
+// var fourthAnimal = animals.shift();
+// document.write("Out : <br/>" + fourthAnimal + "<br/>");
+
+// //Q # 14
+// document.write("<br/><br/>");
+// var animals = ["Elephant", "Lion", "Tiger", "Girrafe"];
+// document.write("Animals : <br/>" + animals + "<br/>");
+// var firstAnimal = animals.pop();
+// document.write("out : <br/>" + firstAnimal + "<br/>");
+// var secondAnimal = animals.pop();
+// document.write("Out : <br/>" + secondAnimal + "<br/>");
+// var thirdAnimal = animals.pop()
+// document.write("Out : <br/>" + thirdAnimal + "<br/>");
+// var fourthAnimal = animals.pop();
+// document.write("Out : <br/>" + fourthAnimal + "<br/>");
+
+// //Q # 15
+// document.write("<br/><br/>");
+// var phoneBrands = ["Apple", "Samsung", "Motorla", "Nokia", "Sony", "Haier"];
+// document.write(
+//     "<select>" +
+//     "<option>" + phoneBrands[0] + "</option>" +
+//     "<option>" + phoneBrands[1] + "</option>" +
+//     "<option>" + phoneBrands[2] + "</option>" +
+//     "<option>" + phoneBrands[3] + "</option>" +
+//     "<option>" + phoneBrands[4] + "</option>" +
+//     "<option>" + phoneBrands[5] + "</option>" +
+//     "</select>"
+// );
+
 //task 1 //
 // var cities = [
 //     []
